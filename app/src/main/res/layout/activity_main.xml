@@ -28,7 +28,7 @@
 
     <TextView
         android:id="@+id/tvOneCoroutine"
-        android:layout_width="150dp"
+        android:layout_width="130dp"
         android:layout_height="35dp"
         android:layout_marginTop="16dp"
         android:background="@color/colorPrimary"
@@ -49,18 +49,8 @@
         app:layout_constraintTop_toBottomOf="@+id/tvOneCoroutine" />
 
     <TextView
-        android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="18dp"
-        android:layout_marginTop="30dp"
-        android:text="sortListRx takes"
-        app:layout_constraintEnd_toEndOf="@+id/textView"
-        app:layout_constraintStart_toStartOf="@+id/textView"
-        app:layout_constraintTop_toBottomOf="@+id/tvOneThread" />
-
-    <TextView
         android:id="@+id/tvOneThread"
-        android:layout_width="150dp"
+        android:layout_width="130dp"
         android:layout_height="35dp"
         android:layout_marginTop="16dp"
         android:background="@color/colorPrimary"
@@ -72,21 +62,8 @@
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
     <TextView
-        android:id="@+id/tvResult3"
-        android:layout_width="150dp"
-        android:layout_height="35dp"
-        android:layout_marginTop="16dp"
-        android:background="@color/colorPrimary"
-        android:text="rx result"
-        android:textColor="@color/white"
-
-        app:layout_constraintEnd_toEndOf="@+id/textView4"
-        app:layout_constraintStart_toStartOf="@+id/textView4"
-        app:layout_constraintTop_toBottomOf="@+id/textView4" />
-
-    <TextView
         android:id="@+id/tvManyCoroutines"
-        android:layout_width="150dp"
+        android:layout_width="130dp"
         android:layout_height="35dp"
         android:layout_marginTop="16dp"
         android:background="@color/colorPrimary"
@@ -108,7 +85,7 @@
 
     <TextView
         android:id="@+id/tvManyThreads"
-        android:layout_width="150dp"
+        android:layout_width="130dp"
         android:layout_height="35dp"
         android:layout_marginTop="16dp"
         android:background="@color/colorPrimary"
@@ -119,25 +96,4 @@
         app:layout_constraintStart_toStartOf="@+id/textView9"
         app:layout_constraintTop_toBottomOf="@+id/textView9" />
 
-    <TextView
-        android:id="@+id/textView11"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
-        android:text="TextView"
-        app:layout_constraintEnd_toEndOf="@+id/textView7"
-        app:layout_constraintStart_toStartOf="@+id/textView7"
-        app:layout_constraintTop_toBottomOf="@+id/tvManyThreads" />
-
-    <TextView
-        android:id="@+id/textView12"
-        android:layout_width="150dp"
-        android:layout_height="35dp"
-        android:layout_marginTop="16dp"
-        android:background="@color/colorPrimary"
-        android:text="TextView"
-        android:textColor="@color/white"
-        app:layout_constraintEnd_toEndOf="@+id/textView11"
-        app:layout_constraintStart_toStartOf="@+id/textView11"
-        app:layout_constraintTop_toBottomOf="@+id/textView11" />
 </android.support.constraint.ConstraintLayout>
